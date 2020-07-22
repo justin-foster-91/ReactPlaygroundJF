@@ -12,10 +12,19 @@ class Drills extends React.Component {
         <p>Hello World</p>
         <button 
           variant="outline-dark"
-          onClick={function() {console.log('clicked!')}}
+          onClick={function() {console.log('clicked World!')}}
         >World</button>
-        <button variant="outline-dark">Friend</button>
-        <button variant="outline-dark">React</button>
+
+        <button 
+          variant="outline-dark"
+          onClick={function() {console.log('clicked Friend!')}}
+        >Friend</button>
+
+        <button 
+          variant="outline-dark"
+          onClick={function() {console.log('clicked React!')}}
+        >React</button>
+
       </main>
     );
   }
